@@ -1,14 +1,8 @@
-# 03-router-1
+# 03-router-1 Ejemplo curso Bluuweb-Udemy Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+- [Preview page](https://03-router-vue.netlify.app/)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Este es un ejemplo del curso de Udemy de vue.js 3, trabajando con RouterView y el composition api.
 
 ## Project Setup
 
