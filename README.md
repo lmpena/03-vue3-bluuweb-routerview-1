@@ -1,6 +1,6 @@
 # 03-router-1 Ejemplo curso Bluuweb-Udemy Vue 3
 
-- [Preview page](https://03-router-vue.netlify.app/)
+- [Preview page](https://03-router-1-pinia-bluuweb.netlify.app/)
 
 Este es un ejemplo del curso de Udemy de vue.js 3, trabajando con RouterView y el composition api.
 
