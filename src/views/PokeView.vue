@@ -4,9 +4,14 @@
     import { useRoute, useRouter } from 'vue-router';
     
     import { useGetData } from '@/composables/getData';
+    import { useFavoritosStore } from '@/store/favoritos';
 
     const route = useRoute();
     const router = useRouter();
+
+    const useFavoritos = useFavoritosStore();
+    const { add } = useFavoritos;
+    const { findPoke } = useFavoritos;
 
     const { getData, data, loading, error } = useGetData();
 
@@ -41,6 +46,7 @@
     <div v-if="data">
         <img :src="data.sprites?.front_default" alt="">
         <h1> Poke name: {{ $route.params.name }} </h1>
+        <button :disabled="findPoke(data.name)" class="btn btn-primary mb-2" @click="add(data)">Agregar favoritos</button>
     </div>
     <h1 v-else>No existe el pokemon {{ $route.params.name }} </h1>
     <button class="btn btn-outline-primary" @click="back">Volver</button>
